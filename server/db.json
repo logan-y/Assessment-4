@@ -1,15 +1,18 @@
   [{
     "id": 1,
     "goalText": "I will structure my weeknights better to avoid extra weekend work.",
-    "imageURL" : "https://images.unsplash.com/photo-1626248156011-a278d3360625?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fG90dGVyc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    "imageURL" : "https://images.unsplash.com/photo-1626248156011-a278d3360625?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fG90dGVyc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    "affirmText": "This otter thinks it hears something, but also thinks that you got this."
   },
   {
     "id": 2,
     "goalText": "I will use more of my bio break to go outside and stretch.",
-    "imageURL" : "https://images.unsplash.com/photo-1617780459737-ba6628fcb019?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fG90dGVyc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    "imageURL" : "https://images.unsplash.com/photo-1617780459737-ba6628fcb019?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fG90dGVyc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    "affirmText": "Yummy Fish! You deserve a delicious reward after you inevitably crush this goal."
   },
   {
     "id": 3,
     "goalText": "I will eat a healthy, mind-strengthening breakfast each morning.",
-    "imageURL" : "https://images.unsplash.com/photo-1512770154819-d4f4b86cca0a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fG90dGVyc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    "imageURL" : "https://images.unsplash.com/photo-1512770154819-d4f4b86cca0a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fG90dGVyc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    "affirmText": "Relax!"
   }]

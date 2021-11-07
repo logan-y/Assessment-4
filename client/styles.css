@@ -37,8 +37,9 @@ input[type='text'] {
     width: 50%;
     height: 30px;
     border: solid;
-    color: #eee5e5;
+    color: black;
     background-color: rgb(230, 253, 255);
+    text-align: center;
 }
 ::placeholder { 
     color: rgb(10, 10, 10);
@@ -51,9 +52,9 @@ input[type='text'] {
     justify-content: center;
     align-items: center;
   }
-  .sweetBtns {
-      
-  }
+  /* .sweetBtns {
+    background-color: black;
+  } */
   .goals-image {
     width: 300px; 
     height: 300px;
@@ -63,6 +64,7 @@ input[type='text'] {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 45px;
   }
   
   .goalText {
@@ -73,6 +75,6 @@ input[type='text'] {
     width: 100%; 
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 80px;
+    margin-bottom: 8px;
   }
   

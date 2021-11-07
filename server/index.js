@@ -15,6 +15,7 @@ const {
   getGoals,
   deleteGoal,
   createGoal,
+  updateGoal
 } = require('./controller')
 
 app.get(`/api/compliment`, giveComps)
@@ -22,6 +23,7 @@ app.get(`/api/fortune`, giveFortunes)
 app.get(`/api/goals`, getGoals)
 app.delete(`/api/goals/:id`, deleteGoal)
 app.post(`/api/goals`, createGoal)
+app.put(`/api/goals/:id`, updateGoal)
 
 
 

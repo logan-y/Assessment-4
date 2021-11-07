@@ -40,15 +40,31 @@ module.exports = {
     },
 
     createGoal: (req, res) => {
-        let {goalText, imageURL} = req.body
+        let {goalText, imageURL, affirmText} = req.body
         let newGoal = {
             id: globalId,
             goalText,
-            imageURL
+            imageURL,
+            affirmText
         }
         goals.push(newGoal)
         res.status(200).send(goals)
         globalId++;
     },
+    updateGoal: (req, res) => {
+        let { id } = req.params
+        let {type} = req.body
+        let index = goals.findIndex(elem => +elem.id === +id)
 
+        if(type === 'affirmations'){
+            goals[index].affirmText = 'this is totally gonna be your year!';
+            console.log('test of aff button');
+            res.status(200).send(goals);
+        } else if (type === 'jokes'){
+            goals[index].affirmText = 'funnyJokeHere!';
+            res.status(200).send(goals);
+        } else {
+            res.sendStatus(400);
+        }
+    }
 }
