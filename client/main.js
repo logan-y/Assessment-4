@@ -40,11 +40,11 @@ function createGoalCard(goal) {
 
     goalCard.innerHTML = `<img alt='otter image' src=${goal.imageURL} class="goal-image"/>
     <p class="goalText">${goal.goalText}</p>
- 
+    
     <div class="btns-container">
     <button onclick="updateGoal(${goal.id}, 'affirmations')">Want an alternate affirmation?</button>   
     <p class= "affirmText">${goal.affirmText}</p>
-    <button onclick="updateGoal(${goal.id}, 'jokes')">How about a joke?</button>
+    <button onclick="updateGoal(${goal.id}, 'harshTruth')">Or can you handle the bitter truth?</button>
     <br>
     </div>    
     <button onclick="deleteGoal(${goal.id})">delete goal</button>`

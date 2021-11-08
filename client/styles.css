@@ -4,12 +4,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
-body {
-      background-color: snow;
-    }
     
 h1 {
-    height: 80px; 
+    height: 60px; 
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -26,7 +23,7 @@ form {
   }
 button {
     height: 25px;
-    background-color: rgb(204, 216, 215);
+    background-color: rgb(230, 253, 255);
     border: solid;
     margin: 5px;
     align-items: center;
@@ -52,9 +49,13 @@ input[type='text'] {
     justify-content: center;
     align-items: center;
   }
-  /* .sweetBtns {
-    background-color: black;
-  } */
+  .centerBtns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border: 3px dotted 
+  }
   .goals-image {
     width: 300px; 
     height: 300px;
@@ -72,9 +73,9 @@ input[type='text'] {
   }
 
   .btns-container {
-    width: 100%; 
     display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 8px;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
   }
   

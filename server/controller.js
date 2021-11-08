@@ -1,4 +1,4 @@
-const goals = require('./db.json')
+const goals = require("./db.json")
 let globalId = 3;
 
 module.exports = {
@@ -57,11 +57,11 @@ module.exports = {
         let index = goals.findIndex(elem => +elem.id === +id)
 
         if(type === 'affirmations'){
-            goals[index].affirmText = 'this is totally gonna be your year!';
-            console.log('test of aff button');
+            goals[index].affirmText = "This is totally gonna be your year!";
+            //console.log("test of aff button");
             res.status(200).send(goals);
-        } else if (type === 'jokes'){
-            goals[index].affirmText = 'funnyJokeHere!';
+        } else if (type === 'harshTruth'){
+            goals[index].affirmText = "These buttons probably aren't helping you complete your goal..";
             res.status(200).send(goals);
         } else {
             res.sendStatus(400);
